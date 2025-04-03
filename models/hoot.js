@@ -16,7 +16,7 @@ const commentSchema = new mongoose.Schema(
     { timestamps: true }
 );
 
-const hootSchema = new monogose.Schema(
+const hootSchema = new mongoose.Schema(
     {
         title: {
             type: String,
